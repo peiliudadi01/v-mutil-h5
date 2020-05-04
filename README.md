@@ -91,10 +91,4 @@ npm run serve
         index.html
 ```
 
-## 文章地址
-[基于 Webpack4 + Vue 的多页应用解决方案（一）](https://www.jianshu.com/p/c52df2689d34)
-
-[基于 Webpack4 + Vue 的多页应用解决方案（二）](https://www.jianshu.com/p/0c888c895661)
-
-
 https://hotel-api.dadi01.net/share/index.html?t=856F9CD4A7206A18B5A6003BA311BD60&checkInId=8879
