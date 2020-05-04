@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/**
+ * 功能[重置]
+ * 
+ */
+
+*::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    display: none;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, i, u, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, fieldset, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+html {
+    color: #333;
+    background-color: #EAEAEA;
+    overflow: hidden;
+    user-select: none;
+    text-size-adjust: none;
+    touch-action: pan-y;
+}
+html, body {
+    height: 100%;
+}
+body {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    line-height: normal;
+    font-family: "PingFangSC-Regular", "-apple-system-font", sans-serif;
+    font-size: _(28);
+    word-wrap: break-word;
+    user-select: none;
+    text-size-adjust: none;
+    text-rendering: optimizeLegibility;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+    -ms-content-zooming: none;
+}
+ol, ul {
+    list-style: none;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+blockquote, q {
+    quotes: none;
+    &:before, &:after {
+        content: '';
+        content: none;
+    }
+}
+hr {
+    box-sizing: content-box;
+    height: 0
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+a, button, input, select, textarea{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-drag: none;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+    -webkit-user-drag: none;
+}
+a, img {
+    -webkit-touch-callout: none;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+button, input, select, textarea {
+    margin: 0;
+    border: 0;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    background-image: none;
+    font-size: 100%;
+    -webkit-font-smoothing: inherit;
+}
+button, input {
+    line-height: normal;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+audio {
+    display: none;
+}
+
+input::-webkit-input-placeholder { 
+    color: #BBBBBB;
+}
